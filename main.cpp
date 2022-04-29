@@ -14,7 +14,7 @@ int get_score(string A, string B)
     {
         if (A[i] != B[i])
         {
-            score += 1;
+            score -= 1;
         }
         else if (A[i] == B[i])
         {
